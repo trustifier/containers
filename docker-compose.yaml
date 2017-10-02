@@ -1,0 +1,8 @@
+version: '3.3'
+services:
+        alpine:
+                image: trustifier/base.alpine
+                build: 
+                        context: ./alpine
+                        dockerfile: Dockerfile
+                restart: "no"
